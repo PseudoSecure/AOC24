@@ -2,7 +2,7 @@ array1 = []
 array2 = []
 i = 0
 
-with open('input.txt', 'r') as file:
+with open('input_part1.txt', 'r') as file:
     for line in file:
         elements = line.strip().split('   ')
         array1.append(int(elements[0]))
