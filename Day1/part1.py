@@ -10,8 +10,10 @@ with open('input_part1.txt', 'r') as file:
 
 
 sorted_array_1 = sorted(array1)
-sorted_array_2  =sorted(array2)
+sorted_array_2 = sorted(array2)
 
 for index, ele in enumerate(sorted_array_1):
     i = i + abs(sorted_array_1[index] - sorted_array_2[index])
 print(i)
+
+
